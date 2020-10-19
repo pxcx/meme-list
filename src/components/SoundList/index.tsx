@@ -5,19 +5,11 @@ import styles from './styles.module.css';
 
 import AudioPlayer from '../AudioPlayer';
 
+interface OwnProps {
+  audios: string[];
+}
 
-const SoundList: React.FC = () => {
-
-  const audios = [
-    'acerto.mp3',
-    'ehtreta.mp3',
-    'emorreu.mp3',
-    'errou.mp3',
-    'morrediabo.mp3',
-    'soufoda.mp3',
-    'trollei.mp3',
-  ]
-
+const SoundList: React.FC<OwnProps> = ({audios}) => {
   return (
       <Container className={styles.container}>
       {

@@ -9,7 +9,7 @@ const AppHeader: React.FC = () => {
     <AppBar position="fixed">
       <Toolbar>
         <Typography variant="h6" className={styles.title}>
-          <VolumeUpIcon className={styles.titleIcon} />Paulo's MemeBot
+          <VolumeUpIcon className={styles.titleIcon} />Paulo's Sound List
         </Typography>
       </Toolbar>
     </AppBar>

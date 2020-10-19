@@ -5,9 +5,12 @@ import AddCircleIcon from '@material-ui/icons/AddCircle';
 
 import styles from './styles.module.css';
 
-const AppFooter: React.FC = () => {
-  const [tab, setTab] = React.useState(0);
+interface OwnProps {
+  tab: Number;
+  setTab: Function;
+}
 
+const AppFooter: React.FC<OwnProps> = ({tab, setTab}) => {
   return (
     <BottomNavigation
       value={tab}
@@ -17,8 +20,8 @@ const AppFooter: React.FC = () => {
       showLabels
       className={styles.container}
     >
-      <BottomNavigationAction label="Meme List" icon={<VolumeUpIcon />} />
-      <BottomNavigationAction label="Add new" icon={<AddCircleIcon />} />
+      <BottomNavigationAction label="Sound List" icon={<VolumeUpIcon />} />
+      <BottomNavigationAction label="Add new Sound" icon={<AddCircleIcon />} />
     </BottomNavigation>
   );
 }

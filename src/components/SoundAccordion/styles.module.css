@@ -1,0 +1,11 @@
+.title {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title svg {
+  margin-right: 0.5rem;
+}
