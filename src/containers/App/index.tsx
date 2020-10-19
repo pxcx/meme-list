@@ -24,8 +24,9 @@ function App() {
     'cilada.mp3',
     'brinqueixon.mp3',
     'burro.mp3',
-    'luiza.mp3'
-
+    'luiza.mp3',
+    'martchelo.mp3',
+    'martchelo_full.mp3',
   ];
 
   const soundsTracks = [
