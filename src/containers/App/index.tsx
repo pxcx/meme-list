@@ -25,8 +25,6 @@ function App() {
     'brinqueixon.mp3',
     'burro.mp3',
     'luiza.mp3',
-    'martchelo.mp3',
-    'martchelo_full.mp3',
   ];
 
   const soundsTracks = [
@@ -37,7 +35,10 @@ function App() {
 
   const sfx = [
     'grilo.mp3',
-    'breaking.mp3'
+    'breaking.mp3',
+    'miau.mp3',
+    'galinha.mp3',
+    'papaleguas.mp3',
   ];
 
   return (
