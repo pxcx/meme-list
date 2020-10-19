@@ -19,12 +19,12 @@ const SoundList: React.FC = () => {
   ]
 
   return (
-      <Container>
+      <Container className={styles.container}>
       {
         audios.map((audio, index) => (
           <Grid key={index} container className={styles.soundItem}>
             <Grid item xs={5}>
-              <Typography>{audio}</Typography>
+              <Typography>{audio.replace('.mp3', '')}</Typography>
             </Grid>
             <Grid item xs={7}>         
               <AudioPlayer audioFile={audio} />

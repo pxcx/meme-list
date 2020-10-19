@@ -8,9 +8,8 @@ const AppHeader: React.FC = () => {
   return (
     <AppBar position="fixed">
       <Toolbar>
-        <VolumeUpIcon className={styles.titleIcon} />
         <Typography variant="h6" className={styles.title}>
-          Paulo's MemeBot
+          <VolumeUpIcon className={styles.titleIcon} />Paulo's MemeBot
         </Typography>
       </Toolbar>
     </AppBar>

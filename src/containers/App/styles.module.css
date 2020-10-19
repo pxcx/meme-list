@@ -1,3 +1,9 @@
 .container {
-  margin: 70px 0 !important;
+  max-width: 870px !important;
+  margin: 80px auto !important;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
 }
