@@ -1,13 +1,25 @@
 import React from 'react';
-import List from '../List';
+import { Grid } from '@material-ui/core';
+
+import styles from './styles.module.css';
+
+import SoundList from '../../components/SoundList';
+import AppHeader from '../../components/AppHeader';
+import AppFooter from '../../components/AppFooter';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Lista de Memes</h1>
-
-      <List />
-    </div>
+      <Grid container>
+        <Grid item xs={12}>
+          <AppHeader />
+        </Grid>
+        <Grid item xs={12} className={styles.container}>         
+          <SoundList  />
+        </Grid>
+        <Grid item xs={12}>
+          <AppFooter />
+        </Grid>
+      </Grid>
   );
 }
 

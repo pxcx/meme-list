@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './styles.module.css';
 
 interface OwnProps {
   audioFile: string;
@@ -6,9 +7,13 @@ interface OwnProps {
 
 const AudioPlayer: React.FC<OwnProps> = ({ audioFile }) => {
   return (
-    <div>
-      <audio src={`audios/${audioFile}`} controls autoPlay />
-    </div>
+      <audio 
+        className={styles.player}
+        id={audioFile}
+        src={`audios/${audioFile}`}
+        controls
+        preload="auto">
+      </audio>
   );
 }
 

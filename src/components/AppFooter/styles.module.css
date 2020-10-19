@@ -1,0 +1,11 @@
+.container {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 64px !important;
+}
+
+.container svg {
+  margin: 0.5rem 0;
+
+}
