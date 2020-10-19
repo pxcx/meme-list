@@ -29,7 +29,7 @@ function App() {
 
   const sfx = [
     'grilo.mp3',
-    'breaking_news.mp3',
+    'breaking.mp3',
     'explosao.mp3'
   ];
 
