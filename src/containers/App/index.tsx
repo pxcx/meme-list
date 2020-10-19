@@ -19,6 +19,13 @@ function App() {
     'morrediabo.mp3',
     'soufoda.mp3',
     'trollei.mp3',
+    'bom_dia.mp3',
+    'marcus.mp3',
+    'cilada.mp3',
+    'brinqueixon.mp3',
+    'burro.mp3',
+    'luiza.mp3'
+
   ];
 
   const soundsTracks = [
@@ -29,8 +36,7 @@ function App() {
 
   const sfx = [
     'grilo.mp3',
-    'breaking.mp3',
-    'explosao.mp3'
+    'breaking.mp3'
   ];
 
   return (
