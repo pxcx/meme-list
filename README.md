@@ -5,7 +5,7 @@
 
 Bring some brazilian hu3hu3 spirit to your meetings! This is a simple app to keep your audios at hand,
 very useful when you need to play a meme during a meeting and don't want to miss the perfect timing.
-Or maybe use sound tracks and sound effects to enhance the immersion, when you are speaking in daily meeting.<br/>
+Or maybe use sound tracks and sound effects to enhance the immersion when you are speaking in the daily meeting.<br/>
 It's all up to you, don't let that boring meeting kill your day, SLAY IT with memes!
 
 **Last build:** [https://sounds.pxcx.com.br](https://sounds.pxcx.com.br).
