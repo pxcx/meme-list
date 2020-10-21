@@ -21,4 +21,4 @@ It's all up to you, don't let that boring meeting kill your day, SLAY IT with me
 ![App Screen](https://sounds.pxcx.com.br/screens/001.png)
 ![App Screen](https://sounds.pxcx.com.br/screens/002.png)
 
-**Built with:** [React](https://reactjs.org), [Typescript](https://www.typescriptlang.org) :heart:
+**Built with:** [React](https://reactjs.org), [Typescript](https://www.typescriptlang.org) and [Material UI](https://material-ui.com/) :heart:
