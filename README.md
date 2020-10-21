@@ -19,6 +19,5 @@ It's all up to you, don't let that boring meeting kill your day, SLAY IT with me
 - [ ] Audio Form: Allows users to add an new audio to the list.
 
 ![App Screen](https://sounds.pxcx.com.br/screens/001.png)
-![App Screen](https://sounds.pxcx.com.br/screens/002.png)
 
 **Built with:** [React](https://reactjs.org), [Typescript](https://www.typescriptlang.org) and [Material UI](https://material-ui.com/) :heart:
