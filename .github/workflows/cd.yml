@@ -20,7 +20,11 @@ jobs:
     - name: Build
       run: yarn build
 
+    - name: Clean
+      run: git reset --hard
+
     - name: Deploy
+      if: github.ref == 'refs/heads/main'
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         ftp-server: ftp://ftp.pxcx.com.br/sounds
